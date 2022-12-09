@@ -5,7 +5,7 @@ import CustomerList from "./components/customer/CustomerList"
 import TrainingList from './components/training/TrainingList';
 import DisplayData from "./components/DisplayData";
 import BigCalendar from './components/BigCalendar';
-import { Switch, Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Drawer from "./components/Drawer";
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from "@mui/x-date-pickers";
