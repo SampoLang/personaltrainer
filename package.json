@@ -29,18 +29,12 @@
     "serve": "^14.1.2",
     "web-vitals": "^2.1.4"
   },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x",
-    "yarn": "1.x",
-    "react": "17.x"
-  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "serve -s build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "postbuild": "serve -s build"
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
